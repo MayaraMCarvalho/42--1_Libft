@@ -6,7 +6,7 @@
 #    By: macarval <macarval@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/21 00:40:38 by macarval          #+#    #+#              #
-#    Updated: 2024/10/24 12:00:35 by macarval         ###   ########.fr        #
+#    Updated: 2024/10/24 13:58:10 by macarval         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,9 +32,9 @@ SRCS		= ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c			\
 			ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c					\
 			ft_putnbr_fd.c													\
 			\
-			get_next_line.c				get_next_line_utils.c				\
+			get_next_line.c get_next_line_utils.c							\
 			\
-			ft_printf.c					ft_printf_utils.c
+			ft_printf.c ft_format.c ft_printf_control.c ft_printf_utils.c
 
 VPATH		= srcs/ srcs/checkers srcs/conversors srcs/list srcs/memory		\
 			srcs/string srcs/writers srcs/gnl srcs/ft_printf
